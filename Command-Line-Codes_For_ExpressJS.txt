@@ -1,0 +1,270 @@
+		Press Command+And Click On The Function in VSCode to Look For Function
+
+
+
+You Can Either Use npm Install or npm i or yarn add				
+
+
+
+
+
+				To Install Express:-
+Create A Folder First and Then Write
+Code:- npm install express
+
+
+
+
+Documentation:- https://expressjs.com/
+
+
+
+
+				To Create Package.json in Express:-
+Code:- npm init -y
+
+
+
+				To Install dotenv package:-
+code:- npm install dotenv
+
+This Creates The environment for our express file
+
+
+
+
+				To Start The Server:-
+code:- node index.js
+
+AFTER DEFINING START = index.js in package.json
+ We Can Do:
+npm start
+
+
+
+
+				To Install Nodemon:- 
+Code:- npm install nodemon (RECOMMENDED)
+
+OR
+
+npm install -g nodemon # or using yarn: yarn global add nodemon
+And nodemon will be installed globally to your system path.
+
+You can also install nodemon as a development dependency:
+
+npm install --save-dev nodemon # or using yarn: yarn add nodemon -D
+
+
+
+Documentation:- https://www.npmjs.com/package/nodemon
+
+
+nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+nodemon does not require any additional changes to your code or method of development. nodemon is a replacement wrapper for node. To use nodemon, replace the word node on the command line when executing your script.
+
+
+
+
+				To Install Mongoose:-
+Code:- npm install mongoose
+
+
+Documentation:- https://www.npmjs.com/package/mongoose
+
+
+Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.
+
+
+				MONGODB AND MONGO COMPASS:-
+
+-MONGODB IS AN NO SQL DATABASE WHICH WE USE IN MERN STACK. WE DO THIS VIA CREATING ACCOUNT IN MONGODB ATLAS. 
+
+-TO USE MONGODB LOCALLY, WE USE MONGO COMPASS.
+
+-MONGO COMPASS ALSO CAN BE SET TO CONNECT TO ATLAS ACCOUNT IN CLOUND AND PERFORM CRUD (CREATE, REMOVE, UPDATE, EDIT) IN DATABASE IN MONGODB ATLAS
+
+
+				
+				POSTMAN:-
+-POSTMAN IS AN API TESTER TO CHECK ROUTE WHETHER FROM SERVER SIDE OR CLIENT SIDE
+
+
+
+				To Install Body-Parser:-
+Code:- npm install body-parser
+
+
+
+Documentation:-
+
+
+Body-Parser is used to read the value that is coming from the body
+Node.js body parsing middleware.
+
+Parse incoming request bodies in a middleware before your handlers, available under the req.body property.
+
+
+
+
+				To Install Multer
+
+Code:- npm install multer
+
+
+Documentation:- https://www.npmjs.com/package/multer
+
+
+Multer is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files. It is written on top of busboy for maximum efficiency.
+It helps to upload file in the server.
+
+
+
+
+				To Install Morgan
+
+Code:- npm install morgan 
+or
+npm i morgan
+
+
+Documentation:- https://www.npmjs.com/package/morgan
+
+Morgan shows which route is in use or hit in the server including error message and success message ports
+
+
+
+
+				To Install Express-Validator
+
+Code:- npm install express-validator
+or
+npm i express-validator
+
+
+Documentation:- https://express-validator.github.io/docs/
+
+
+express-validator is a set of express.js middlewares that wraps validator.js validator and sanitizer functions.
+
+Express-Validator helps in validating the data type that is to be inputted.
+
+
+
+
+				To Install uuidv1 and CRYPTO
+
+				To Install uuidv1
+Code:- npm i uuidv1
+
+Documentation:- https://www.npmjs.com/package/uuidv1
+
+
+When Creating user, it will allow CRYPTO to encrypt via by genererating hash of the user id which it sends to CRYPTO, generally enables user-id security via CRYPTO. SAVES PASSWORD IN ENCRYPTED FORM RATHER HAN AS IT IS.
+
+IN SHORT, UUIDV1 GENERATES UNIQUE KEYS
+
+THERE ARE OTHER VERSIONS OF UUIDV ASWELL, WE ARE USING 1 HENCE UUIDV1
+
+
+
+
+				To Install Crypto
+Code:- npm i crypto
+
+Documentation:- https://nodejs.org/api/crypto.html
+
+
+CRYPTO encrypts the PASSWORD based on hashing received from uuidv1
+
+
+
+
+				To Install JSON Web Token
+
+
+Code:- npm i jsonwebtoken
+
+Documentation:- https://www.npmjs.com/package/jsonwebtoken
+
+
+
+JSON Web Token (JWT) is a compact URL-safe means of representing claims to be transferred between two parties. 
+
+json web token is used for authentication, i.e token generetion and save it in cookies or local storage
+
+
+
+
+				To Install Express-JWT
+
+Code:- npm i express-jwt / npm install express-jwt
+
+Documentation:- https://www.npmjs.com/package/express-jwt
+
+
+
+express-jwt is a JWT authentication middleware, used in authorization. i.e to authorize pages
+
+This module provides Express middleware for validating JWTs (JSON Web Tokens) through the jsonwebtoken module.
+
+
+
+
+				To Install Cookie Parser
+
+
+Code:- npm i cookie-parser / npm install cookie-parser
+
+Documentation:- https://www.npmjs.com/package/cookie-parser
+
+
+cookie-parser is a middleware which parses cookies attached to the client request object.
+
+cookier-parser = to save in cookie. IF JSON WEB TOKEN IS SAVED IN COOKIES, IT NEEDS COOKIE PARSER
+
+
+
+
+				To Install Node Mailer
+
+
+Code:- npm i nodemailer / npm install nodemailer
+
+Documentation:- https://www.npmjs.com/package/nodemailer
+
+
+Nodemailer is a module for Node.js applications to allow easy as cake email sending. 
+
+nodemailer allows us to send mail, like to send verification mail, it needs to send mail in gmail, to do this, we need nodemailer. WE USE IT VIA MAILTRAP IN MAILTRAP.IO HENCE NODEMAILER ALLOWS US TO SEND EMAILS
+
+
+
+
+				To Install Cors
+
+Code:- npm i cors / npm install cors
+
+Documentation:- https://www.npmjs.com/package/cors
+
+
+Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins (domain, scheme, or port) other than its own from which a browser should permit loading resources.
+
+CORS allows us TO CONNECT TO EXTERNAL API (CURRENTLY WE ARE USING POSTMAN, NOW WE NEED TO CONNECT IT TO REACT)
+
+
+
+
+
+				To Install Stripe
+Code:- npm i stripe
+
+Documentation:- https://www.npmjs.com/package/stripe
+
+
+The Stripe Node library provides convenient access to the Stripe API from applications written in server-side JavaScript.
+
+
+Stripe Allows us to test card payment options in our app. Similar to Mailtrap but for payment.
+The Stripe Node library provides convenient access to the Stripe API from applications written in server-side JavaScript. For collecting customer and payment information in the browser, use Stripe.

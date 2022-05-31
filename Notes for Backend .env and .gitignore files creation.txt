@@ -1,0 +1,74 @@
+//EXAMPLE OF .env FILE:-
+In ExpressJS, There is no system of comments, so just write it as it is.
+
+ONLY THE CODE:- ARE THE CODES, EVERYTHING ELSE ARE COMMENTS. Exclude The Term "Code:-" when creating those files
+
+
+Code:- PORT = 8000
+This is our PORT to be used,
+Sometimes, In Mac, By Some MANNER, LOCALHOST 5000 IS ALREADY IN USE, Normally, one uses 5000 INPUT HERE.
+NORMALLY, THE LOCAL HOST PORT ARE FROM 5000 - 8000
+AND 5000 AND 5001 ARE COMPLETELY DIFFERENT PORTS
+
+
+
+Code:- DATABASE = 'mongodb+srv://user_name:Customemailidforcluster@cluster0.jtscm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+
+
+
+
+
+To Use local MongoDB,
+Type 1:- 'mongodb://localhost:12345//LocalDATABASE' where LocalDATABASE is The Name Of Our DATABASE. IS CREATED RIGHT HERE BY THIS CODE IF NO SUCH DATABASE EXISTS
+This will only save in our device
+
+Type 2:- mongodb+srv://fname_lname:fnamelname0000@cluster0.jtscm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority where it CONNECTS TO OUR DATABASE IN CLOUD AND IN DEVICE
+
+
+To Use MongoDB Atlas Online
+Type:- mongodb+srv://fname_lname:fnamelname0000@cluster0.jtscm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+And Write Between ('')
+
+
+Code:- JWT_SECRET='This Is For Generating Tokens'
+	           instead of This Is For Generating Tokens, we can write anything like token ot t or x as long as it is inside single quotes.
+ jwt means json web token, it generates random token which will be used in authorization processes.
+
+
+Code:- SMTP_HOST = "smtp.mailtrap.io"
+Code:- SMTP_PORT = 3130
+Code:- SMTP_USER = "601h5f3bnal2p7"
+Code:- SMTP_PASS = "98dn27h37d63n7"
+
+
+Code:- FRONTEND_URL = 'http://localhost:3000'
+ ENV FILES WILL NOT BE SENT WHILE CREATING THE WEBSITE FOR THE CLIENT. HENCE A DIFFERENT VALUES FOR HOST, PORT ETC WILL BE USED
+
+
+
+STRIPE_API_KEY = "pk_test_kjsalfopusdfumasdfunoanfoaoiusdfaomsfuamfoiuafwmio22jh2k389wejh23h4k89fsadfhj98dsfsdifoi2i13lk9kajs"
+STRIPE_SECRET_KEY = "sk_test_KJKLJs9d8kjJLKDJF90lkjdfso23lkjdfoKLJSL0932jljdfklj23lkjlkjLIKJHDFH7987JKjkhdfksf87987df87sdfk2h3jk"
+
+PUT Publishable Key KEY in STRIPE API KEY And Secret Key In STRIPE SECRET KEY From Dashboard after logging into stripe.com
+
+
+
+
+
+
+
+
+
+
+EXAMPLE OF .gitignore FILE:-
+
+Code:- node_modules
+Code:-.env
+
+
+
+
+although gitignore is not written in its own file, it is excluded automatically
+
+In ExpressJS, There is no system of comments, so just write it as it is.
+These Files Will Be Ignored When Uploading To Git
